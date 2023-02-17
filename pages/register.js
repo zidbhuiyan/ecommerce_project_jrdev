@@ -1,14 +1,14 @@
 import React from 'react'
 
-const Home = () =>{
+const Register = () =>{
   return(
     <>
     <div className=' mt-32'>
-      home
+      Register
     </div>
    
     </>
   )
 }
 
-export default Home
+export default Register
