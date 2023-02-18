@@ -2,9 +2,18 @@ import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose,AiOutlineShoppingCart } from 'react-icons/ai'
+import { useRouter } from 'next/router'
 
 export const Navbar = () => {
-  const [nav, setNav] = useState(false)
+    const router = useRouter
+    const [nav, setNav] = useState(false)
+
+    function isActive(route){
+        if(route== router.pathname){
+            console.log(route);
+        }
+        else ""
+     }
   return (
     <>
     <nav>
