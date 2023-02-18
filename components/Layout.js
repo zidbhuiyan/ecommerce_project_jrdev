@@ -1,11 +1,11 @@
-import React from 'react'
-import { Navbar } from './Navbar'
+import React from "react";
+import { Navbar } from "./Navbar";
 
-export const Layout = ({children}) => {
+export const Layout = ({ children }) => {
   return (
     <div>
-        <Navbar/>
-        {children}
+      <Navbar />
+      {children}
     </div>
-  )
-}
+  );
+};
