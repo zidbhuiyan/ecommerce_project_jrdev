@@ -47,7 +47,7 @@ const Orderlist = () => {
               <tbody>
                 {orderdata.map((data) => {
                   return (
-                    <tr>
+                    <tr key={data.id}>
                       <td className="px-4 bg-gray-100 py-3">{data.id}</td>
                       <td className="px-4 py-3">{data.name}</td>
                       <td className="px-4 py-3">{data.item}</td>
