@@ -60,19 +60,24 @@ export const Navbar = () => {
               >
                 <ul>
                   <li className="p-4 text-3xl hover:text-blue-600">
-                    <Link href="/" onClick={() => setNav(false)}>
+                    <Link href="/admin/orderlist" onClick={() => setNav(false)}>
                       Order List
                     </Link>
                   </li>
                   <li className="p-4 text-3xl hover:text-blue-600">
-                    <Link href="/" onClick={() => setNav(false)}>
+                    <Link
+                      href="/admin/productlist"
+                      onClick={() => setNav(false)}
+                    >
                       <div className="flex justify-center items-center">
                         Product list
                       </div>
                     </Link>
                   </li>
                   <li className="p-2 bg-[#274374] text-center object-cover object-center rounded-xl text-white text-3xl hover:bg-blue-600">
-                    <Link href="/login">Login</Link>
+                    <Link href="/login" onClick={() => setNav(false)}>
+                      Login
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -140,7 +145,9 @@ export const Navbar = () => {
                     </Link>
                   </li>
                   <li className="p-2 bg-[#274374] text-center object-cover object-center rounded-xl text-white text-3xl hover:bg-blue-600">
-                    <Link href="/login">Login</Link>
+                    <Link href="/login" onClick={() => setNav(false)}>
+                      Login
+                    </Link>
                   </li>
                 </ul>
               </div>

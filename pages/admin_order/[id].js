@@ -51,13 +51,15 @@ const Details = () => {
                               <img
                                 alt="team"
                                 className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                                src="https://dummyimage.com/80x80"
+                                src={info.image}
                               />
                               <div className="flex-grow">
                                 <h2 className="text-gray-900 title-font font-medium">
                                   {info.title}
                                 </h2>
-                                <p className="text-gray-500">UI Designer</p>
+                                <p className="text-gray-500">
+                                  {info.price} BDT
+                                </p>
                               </div>
                             </div>
                           </div>
