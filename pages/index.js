@@ -29,8 +29,8 @@ const Home = () => {
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s.
               </p>
             </div>
           </div>
