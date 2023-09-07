@@ -8,7 +8,7 @@ const Product = () => {
 
   useEffect(() => {
     axios
-      .get("https://zidbhuiyan.github.io/productdatajson/data.json")
+      .get("https://zidbhuiyan.github.io/productinfojson/data.json")
       .then((res) => {
         setProductdata(res.data);
       });
